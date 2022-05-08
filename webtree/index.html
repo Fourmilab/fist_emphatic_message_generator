@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>FIST: Emphatic Message Generator</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">
+    a:link,  a:visited {
+        background-color: inherit;
+        color: rgb(0%, 0%, 80%);
+        text-decoration: none;
+    }
+
+    a:hover  {
+        background-color:  rgb(30%, 30%, 100%);
+        color: rgb(100%, 100%, 100%);
+    }
+
+    a:active {
+        color: rgb(100%, 0%, 0%);
+        background-color:  rgb(30%, 30%, 100%);
+    }
+
+    a.i:link, a.i:visited, a.i:hover {
+        background-color:  inherit;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    blockquote.rights {
+        text-align: justify;
+        font-size: smaller;
+        font-family: sans-serif;
+    }
+
+    body {
+        background-color: #FFFFFF;
+        color: #000000;
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+
+    img.border0 {
+        border: 0px;
+    }
+
+    p,dd, li, blockquote, td {
+        text-align: justify;
+    }
+
+    p.r {
+        text-align: right;
+    }
+
+    dl.options dt {
+        margin-top: 1ex;
+    }
+
+    table.footer {
+        width: 100%;
+    }
+
+    table.footer td.left {
+        width: 50%;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    table.footer td.right {
+        width: 50%;
+        text-align: right;
+        vertical-align: top;
+    }
+
+    table.footer table.buttons {
+        margin-left: auto;
+    }
+
+    table.footer table.buttons td {
+        text-align: center;
+    }
+</style>
+<meta name="keywords" content="fist, clenched, poster, banner, sixties, generate, custom, generator, retro" />
+<meta name="description" content="FIST: Emphatic Message Generator" />
+<meta name="author" content="John Walker" />
+<meta name="robots" content="index" />
+</head>
+
+<body>
+
+<center>
+<h1><img src="title.png" width="355" height="130" alt="FIST" /><br />
+<font face="sans-serif" color="#D7071F">EMPHATIC MESSAGE GENERATOR</font>
+</h1>
+</center>
+
+<p>
+<img src="logo.png" width="246" height="529" align="right" style="margin-left: 8px;" alt="" />
+This page describes, in Unix manual page style, a C program
+<a href="#download">available for downloading</a> from this site
+which allows you to generate Sixties-style banners of a clenched
+fist with a slogan of your choice at the bottom.  Unlike
+<em lang="fr" xml:lang="fr">poseur</em> programs, this one actually traces its lineage directly back
+to September 1969, and has survived migration from mainframes
+to personal computers, across a variety of programming
+languages, and from
+<a href="https://www.fourmilab.ch/documents/univac/cards.html">punched card</a>
+six bit character sets all the way to
+ASCII.
+</p>
+
+<hr />
+
+<h3>NAME</h3>
+
+<blockquote>
+     <b>fist</b> - emphatic message generator
+</blockquote>
+
+<h3>SYNOPSIS</h3>
+<blockquote>
+     <tt>fist</tt> [ <tt>-c</tt>
+                      <tt>-f</tt><em>pat</em>
+                      <tt>-l</tt>
+                      <tt>-m</tt><em>text</em>
+                      <tt>-n</tt>
+                      <tt>-s</tt><em>factor</em>
+                      <tt>-u</tt>
+                    ]
+</blockquote>
+
+<h3>DESCRIPTION</h3>
+
+<p>
+<b>fist</b>
+prints an image of a clenched fist (unless suppressed by the
+<b>-c</b>
+option), followed by a slogan in block letters, limited to
+16 characters per line (&ldquo;Television is to news as bumper
+stickers are to philosophy.&rdquo;&mdash;Richard M. Nixon). &nbsp; Options
+permit you to scale the fist commensurate to the iniquities of
+the Oppressor (or your printer's paper size, whichever
+is smaller), select right- or left-handed blows
+against the Empire, and various other gimmicks which popped into
+the mind of this
+<a href="http://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html"
+    target="Fist_Aux">humble programmer</a>
+while watching <cite><a href="http://www.amazon.com/dp/B0006B2A42/?tag=fourmilabwwwfour"
+target="Amazon_Fourmilab">Ice Station
+Zebra</a></cite> over and over again and watching his fingernails grow.
+Oh, wait&hellip;wrong megalomaniac.  Anyway, here's the latest
+incarnation of the <b>fist</b> program.  May your banners ever
+espouse worthy causes, and may those truly worthy be achieved.
+
+<br clear="right" />
+</p>
+
+<h3>OPTIONS</h3>
+
+<dl class="options">
+<dt><b>-c</b></dt> <dd>Chill out: no fist is generated, only the message text.</dd>
+
+<dt> <b>-f</b><em>pat</em></dt> <dd>Fill the fist with the text pattern
+<em>pat</em>,
+which may be any string of ASCII/ISO characters.  If the
+pattern contains blanks or characters interpreted by the
+shell, it should be quoted or escaped appropriately.</dd>
+
+<dt><b>-l</b></dt> <dd>The fist will be left handed.</dd>
+
+<dt><b>-m</b><em>text</em></dt> <dd>Supply a line of the text
+to be printed below the fist on the command line.  If the text
+contains blank or shell metacharacters it should be quoted or
+escaped.  Only the first 16 characters of the <em>text</em>
+will be printed.  You may supply multiple <b>-m</b> options for
+multi-line text.  Note that you must also specify the <b>-n</b>
+option if you don't want <b>fist</b> to read additional lines
+of text from standard input after printing lines supplied by
+the <b>-m</b> option.</dd>
+
+<dt><b>-n</b></dt> <dd>Do not read text to be printed
+below the fist from standard input. Unless you've specified
+text with one or more <b>-m</b> options, no text at all will be
+printed, just the fist. If you specify only the <b>-c</b> and
+<b>-n</b> options, the only consequence of running <b>fist</b>
+will be the passage of time.</dd>
+
+<dt><b>-s</b><em>factor</em></dt> <dd>Scale the fist by the given percentage
+<em>factor</em> between 25 and 100.</dd>
+
+<dt><b>-u</b></dt> <dd>Print how to call information.</dd>
+
+</dl>
+
+<h3>FILES</h3>
+
+<p>
+Lines of text (limited to 16 characters) are read from standard
+input unless suppressed by the <b>-n</b> option; these lines
+are printed in block letters below the fist. Input from
+standard input is terminated by an end of file.  Output is
+written to standard output.  Input and output are processed
+strictly sequentially and hence <b>fist</b> may be used in
+pipelines.
+</p>
+
+<h3>BUGS</h3>
+
+<p>
+The block character font is a limited subset of ASCII containing only
+upper case letters, numbers, and punctuation with character codes
+between hexadecimal 20 and 5F.  The font was originally created in the
+late 1960's in <a href="/documents/univac/">UNIVAC</a> 1108 six bit
+<a href="/documents/univac/fieldata.html">FIELDATA</a> code, and re-shuffled
+into ASCII order when the first port was made to an ASCII machine
+in 1981.  If you'd like to add lower case letters, ISO codes, or
+full Unicode, go right ahead.
+</p>
+
+<p>
+<b>fist</b>
+will not work on machines which do not use the ASCII character code
+(for example EBCDIC machines).  You'll need to shuffle the font
+table or translate character codes to ASCII before you index it.
+I don't have such a machine, so I'm not going to include
+code I can't test.
+</p>
+
+<p>
+Scale factors smaller than about 60 on the <b>-s</b> option
+produce infelicitous results: the fist looks like it's wearing
+a mitten.
+</p>
+
+<p>
+You can't aggregate options, separate options from their
+arguments with a blank, or other cool <tt>getopt</tt> features
+because the program doesn't use <tt>getopt</tt> in order to
+preserve its retro look.
+</p>
+
+<p>
+Over the last thirty years numerous people have suggested the
+program might be enhanced by adding options to raise two
+fingers (&ldquo;peace&rdquo;) or only one finger (well, you know).
+Please send me the code if you make this decades-long dream
+a reality.
+</p>
+
+<h3>SEE ALSO</h3>
+
+<blockquote>
+       <b>ascii</b>(7)<br />
+       <cite><a href="https://www.fourmilab.ch/evilempire">Evil Empires</a></cite>
+</blockquote>
+
+<h2><a name="download" class="i"><img src="https://www.fourmilab.ch/images/icons/file.png" alt="" align="middle" width="40" height="40" /> Download</a></h2>
+
+<dl>
+<dt></dt><dd><img src="https://www.fourmilab.ch/images/bullets/ball_blue_white.png" width="19" height="19" align="top" alt="*" /> &nbsp;
+    <b>fist</b> C source code: <a href="fist-4.1.tar.gz">fist-4.1.tar.gz</a></dd>
+<dt></dt><dd><img src="https://www.fourmilab.ch/images/bullets/ball_green_white.png" width="19" height="19" align="top" alt="*" /> &nbsp;
+    <a href="fist.pdf">Read <b>fist</b> source code</a> (requires
+        PDF reader application)</dd>
+<dt></dt><dd><img src="https://www.fourmilab.ch/images/bullets/ball_yellow_white.png" width="19" height="19" align="top" alt="*" /> &nbsp;
+    <a href="https://github.com/Fourmilab/fist_emphatic_message_generator"
+        target="Fist_Aux">Source code repository at GitHub</a></dd>
+</dl>
+
+<h3>EPILOGUE</h3>
+
+<blockquote>
+<p>
+<small>
+A year or two after emigrating, she happened to be in Paris on the
+anniversary of the Russian invasion of her country (Czechoslovakia).
+A protest march had been scheduled, and she felt driven to take part.
+Fists raised high, the young Frenchmen shouted out slogans condemning
+Soviet imperialism.  She liked the slogans, but to her surprise she
+found herself unable to shout along with them.  She lasted only a few
+minutes in the parade.
+</small>
+</p>
+
+<p style="margin-bottom: 0px;">
+<small>
+When she told her French friends about it, they were amazed.  &ldquo;You
+mean you don't want to fight the occupation of your country?&rdquo;  She
+would have liked to tell them that behind Communism, Fascism, behind
+all occupations and invasions lurks a more basic, pervasive evil and
+that the image of that evil was a parade of people marching with
+raised fists and shouting identical syllables in unison.  But she knew
+she would never be able to make them understand.  Embarrassed, she
+changed the subject.
+</small>
+</p>
+
+<p class="r" style="margin-top: 0px;">
+<small>
+&mdash; Milan Kundera,
+<cite><a href="http://www.amazon.com/exec/obidos/ASIN/0060932139/fourmilabwwwfour" target="Amazon_Fourmilab">The
+Unbearable Lightness of Being</a></cite>
+</small>
+</p>
+</blockquote>
+
+<p />
+<hr />
+
+<p />
+<blockquote class="rights">
+     This software is in the public domain.  Permission to use, copy,
+     modify, and distribute this software and its documentation for
+     any purpose and without fee is hereby granted, without any
+     conditions or restrictions.  This software is provided &ldquo;as is&rdquo;
+     without express or implied warranty.
+</blockquote>
+
+<table class="footer">
+<tr>
+<td class="left">
+<address>by <a href="/">John Walker</a></address>
+Release 1: September 1969<br />
+Release 2: August 1981<br />
+Release 3: October 1985<br />
+Release 4: November 2001<br />
+Release 4.1: April 2022
+</td>
+<td class="right">
+    <table class="buttons">
+    <tr><td>
+    <form id="feedback" method="post" action="https://www.fourmilab.ch/cgi-bin/FeedbackForm.pl">
+    <div>
+    <input type="hidden" name="pagetitle" value="Fist" />
+    <input type="hidden" name="backlink" value="Back to &lt;cite&gt;Fist&lt;/cite&gt;" />
+    <input type="submit" value=" Send Feedback " />
+    </div>
+    </form>
+    </td></tr>
+    <tr><td>
+    <a href="http://validator.w3.org/check?uri=http://www.fourmilab.ch/fist/index.html"
+       target="Fourmilab_Validation"><img
+       src="https://www.fourmilab.ch/images/icons/valid-xhtml10.png"
+       class="border0"
+       alt="Valid XHTML 1.0" height="31" width="88" /></a>
+
+    &nbsp;
+
+     <a href="http://jigsaw.w3.org/css-validator/check/referer"
+       target="Fourmilab_Validation"><img
+       src="https://www.fourmilab.ch/images/icons/vcss.png"
+       class="border0"
+       alt="Valid CSS"  height="31" width="88" /></a>
+    </td></tr>
+   </table>
+</td>
+</tr>
+</table>
+
+<h3><a href="https://www.fourmilab.ch/">Fourmilab Home Page</a></h3>
+
+</body>
+</html>

@@ -1,0 +1,357 @@
+
+                                            ***********
+                                         ****************
+                        **********      ******************
+                    ****************    ******************
+                   ******************   ******************     **************
+                  *******************   ******************    ****************
+                  *******************   ******************    *****************
+                  *******************   *******************  ******************
+            **    *******************   *******************  ******************
+       *********  *******************   *******************  ******************
+    ************   ******************   *******************  ******************
+  **************** *******************  *******************  ******************
+ *****************  ******************  ******************   ******************
+ ****************** ******************  ******************   ******************
+ ****************** ******************   *****************   ******************
+ ****************** *******************  *****************   ******************
+ ******************  ******************  *****************   ****************
+  ****************** ******************   ****************   ****************
+  ******************  *****************   ****************   **************
+   ****************** ******************  ****************   **********
+     ****************  *****************  ***************
+      ***************  *****************   **************            ************
+       **************   ****************   *******              *******************
+        **************  ****************                   *************************
+         *************  ****************       **************************************
+          ************   ****************     ****************************************
+           ***********   ****************     *****************************************
+                ****     **************      *******************************************
+                         **************      ********************************************
+           ********        ************       ********************************************
+        **************       *******          *********************************************
+       *******************                     *********************************************
+      ***************************               **************    ***************************
+      *********************************                       ********************************
+      **************************************               ************************************
+      *****************************************************************************************
+      ******************************************************************************************
+      *******************************************************************************************
+      *******************************************************************************************
+       *****************************************************************************************
+       ****************************************************************************************
+        ***************************************************************************************
+          ************************************************************************************
+           **********************************************************************************
+            ********************************************************************************
+             ******************************************************************************
+               ***************************************************************************
+               *************************************************************************
+                ***********************************************************************
+                 ********************************************************************
+                   *****************************************************************
+                     *************************************************************
+                      **********************************************************
+                      ********************************************************
+                      ******************************************************
+                      *****************************************************
+                       ***************************************************
+                       **************************************************
+                        ************************************************
+                         **********************************************
+                         ********************************************
+                         *******************************************
+                         ******************************************
+                         *****************************************
+                        ******************************************
+                       *******************************************
+                      ********************************************
+                      *******************************************
+                      *******************************************
+                     ********************************************
+                     ********************************************
+                    *********************************************
+                    *********************************************
+                    *********************************************
+                   **********************************************
+                   **********************************************
+                   **********************************************
+                  ***********************************************
+                  ************************************************
+                  ************************************************
+                  ************************************************
+                 *************************************************
+                 *************************************************
+                 *************************************************
+                **************************************************
+                **************************************************
+               ***************************************************
+               ***************************************************
+              ****************************************************
+              ****************************************************
+              ****************************************************
+             *****************************************************
+             *****************************************************
+             *****************************************************
+            ******************************************************
+            ******************************************************
+            ******************************************************
+           *******************************************************
+           *******************************************************
+           *******************************************************
+           *******************************************************
+           *******************************************************
+          ********************************************************
+              ****************************************************
+                       *******************************************
+                                   *******************************
+                                                 *****************
+
+
+DDDD     OOO    W   W   N   N           W   W    III    TTTTT   H   H 
+D   D   O   O   W   W   NN  N           W   W     I       T     H   H 
+D   D   O   O   W   W   N   N           W   W     I       T     H   H 
+D   D   O   O   W   W   N N N           W   W     I       T     HHHHH 
+D   D   O   O   W W W   N   N           W W W     I       T     H   H 
+D   D   O   O   WW WW   N  NN           WW WW     I       T     H   H 
+DDDD     OOO    W   W   N   N           W   W    III      T     H   H 
+                                                                      
+
+
+EEEEE   V   V   EEEEE   RRRR    Y   Y   TTTTT   H   H    III    N   N    GGG  
+E       V   V   E       R   R   Y   Y     T     H   H     I     NN  N   G   G 
+E       V   V   E       R   R    Y Y      T     H   H     I     N   N   G     
+EEE     V   V   EEE     RRRR      Y       T     HHHHH     I     N N N   G GGG 
+E       V   V   E       R R       Y       T     H   H     I     N   N   G   G 
+E        V V    E       R  R      Y       T     H   H     I     N  NN   G   G 
+EEEEE     V     EEEEE   R   R     Y       T     H   H    III    N   N    GGG  
+                                                                              
+
+                                          radiodurans
+                                        d.radiodurans_ru
+                                       _d.radiodurans_rul      adiodurans
+                                       _d.radiodurans_rul    .radiodurans_rul
+                    d.radiodurans_     _d.radiodurans_rul   d.radiodurans_rule
+                   _d.radiodurans_r    _d.radiodurans_rul   d.radiodurans_rules
+                  s_d.radiodurans_r    _d.radiodurans_rul   d.radiodurans_rules
+                  s_d.radiodurans_ru  s_d.radiodurans_rul   d.radiodurans_rules
+                  s_d.radiodurans_ru  s_d.radiodurans_rul   d.radiodurans_rules    ad
+                  s_d.radiodurans_ru  s_d.radiodurans_rul   d.radiodurans_rules  .radiodur
+                  s_d.radiodurans_ru  s_d.radiodurans_rul   d.radiodurans_rule   .radiodurans
+                  s_d.radiodurans_ru  s_d.radiodurans_rul  _d.radiodurans_rule _d.radiodurans_r
+                  s_d.radiodurans_ru   _d.radiodurans_rul  _d.radiodurans_rul  _d.radiodurans_ru
+                  s_d.radiodurans_ru   _d.radiodurans_rul  _d.radiodurans_rul s_d.radiodurans_ru
+                  s_d.radiodurans_ru   _d.radiodurans_ru   _d.radiodurans_rul s_d.radiodurans_ru
+                  s_d.radiodurans_ru   _d.radiodurans_ru  s_d.radiodurans_rul s_d.radiodurans_ru
+                    d.radiodurans_ru   _d.radiodurans_ru  s_d.radiodurans_ru  s_d.radiodurans_ru
+                    d.radiodurans_ru   _d.radiodurans_r   s_d.radiodurans_ru es_d.radiodurans_r
+                      radiodurans_ru   _d.radiodurans_r   s_d.radiodurans_r  es_d.radiodurans_r
+                          odurans_ru   _d.radiodurans_r  es_d.radiodurans_r les_d.radiodurans_
+                                        d.radiodurans_r  es_d.radiodurans_  les_d.radioduran
+                les_d.radiod            d.radiodurans_   es_d.radiodurans_  les_d.radiodura
+              rules_d.radiodurans              durans_   es_d.radiodurans   les_d.radiodur
+             _rules_d.radiodurans_rule                   es_d.radiodurans  ules_d.radiodu
+            s_rules_d.radiodurans_rules_d.radiodur       es_d.radiodurans  ules_d.radiod
+           ns_rules_d.radiodurans_rules_d.radiodura     les_d.radioduran   ules_d.radio
+          ans_rules_d.radiodurans_rules_d.radiodura     les_d.radioduran   ules_d.radi
+         rans_rules_d.radiodurans_rules_d.radioduran      s_d.radioduran     es_d
+        urans_rules_d.radiodurans_rules_d.radioduran      s_d.radioduran
+       durans_rules_d.radiodurans_rules_d.radiodura       s_d.radiodur        s_d.radi
+      odurans_rules_d.radiodurans_rules_d.radiodura          .radiod       ules_d.radiodu
+     iodurans_rules_d.radiodurans_rules_d.radiodur                     ns_rules_d.radiodur
+    diodurans_rules_d.radiodura    ules_d.radiodu               diodurans_rules_d.radiodura
+   adiodurans_rules_d.radiodurans_r                       s_d.radiodurans_rules_d.radiodura
+  radiodurans_rules_d.radiodurans_rule               _rules_d.radiodurans_rules_d.radiodura
+  radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodura
+ .radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodura
+d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodura
+d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodura
+ .radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodur
+  radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodur
+  radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodu
+   adiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radio
+    diodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radi
+     iodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.rad
+      odurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.ra
+       durans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.
+         rans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d.
+          ans_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_d
+            s_rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rules_
+             _rules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_rule
+               ules_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_ru
+                 es_d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_r
+                   _d.radiodurans_rules_d.radiodurans_rules_d.radiodurans_r
+                     .radiodurans_rules_d.radiodurans_rules_d.radiodurans_r
+                      radiodurans_rules_d.radiodurans_rules_d.radiodurans_r
+                       adiodurans_rules_d.radiodurans_rules_d.radiodurans_
+                        diodurans_rules_d.radiodurans_rules_d.radiodurans_
+                         iodurans_rules_d.radiodurans_rules_d.radiodurans
+                          odurans_rules_d.radiodurans_rules_d.radioduran
+                            urans_rules_d.radiodurans_rules_d.radioduran
+                             rans_rules_d.radiodurans_rules_d.radioduran
+                              ans_rules_d.radiodurans_rules_d.radioduran
+                               ns_rules_d.radiodurans_rules_d.radioduran
+                               ns_rules_d.radiodurans_rules_d.radiodurans
+                               ns_rules_d.radiodurans_rules_d.radiodurans_
+                               ns_rules_d.radiodurans_rules_d.radiodurans_r
+                                s_rules_d.radiodurans_rules_d.radiodurans_r
+                                s_rules_d.radiodurans_rules_d.radiodurans_r
+                                s_rules_d.radiodurans_rules_d.radiodurans_ru
+                                s_rules_d.radiodurans_rules_d.radiodurans_ru
+                                s_rules_d.radiodurans_rules_d.radiodurans_rul
+                                s_rules_d.radiodurans_rules_d.radiodurans_rul
+                                s_rules_d.radiodurans_rules_d.radiodurans_rul
+                                s_rules_d.radiodurans_rules_d.radiodurans_rule
+                                s_rules_d.radiodurans_rules_d.radiodurans_rule
+                                s_rules_d.radiodurans_rules_d.radiodurans_rule
+                                s_rules_d.radiodurans_rules_d.radiodurans_rules
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.r
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.r
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.r
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.ra
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.ra
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.ra
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.rad
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.rad
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.rad
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.radi
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.radi
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.radi
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.radi
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.radi
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.radio
+                               ns_rules_d.radiodurans_rules_d.radiodurans_rules_d.r
+                               ns_rules_d.radiodurans_rules_d.radiodurans_
+                               ns_rules_d.radiodurans_rules_d.
+                               ns_rules_d.radiod
+
+
+        EEEEE   U   U   K   K     A     RRRR    Y   Y    OOO    TTTTT   EEEEE    SSS  
+        E       U   U   K  K     A A    R   R   Y   Y   O   O     T     E       S   S 
+        E       U   U   K K     A   A   R   R    Y Y    O   O     T     E       S     
+        EEE     U   U   KK      A   A   RRRR      Y     O   O     T     EEE      SSS  
+        E       U   U   K K     AAAAA   R R       Y     O   O     T     E           S 
+        E       U   U   K  K    A   A   R  R      Y     O   O     T     E       S   S 
+        EEEEE    UUU    K   K   A   A   R   R     Y      OOO      T     EEEEE    SSS  
+                                                                                      
+
+
+ OOO    U   U   TTTTT            OOO    FFFFF           TTTTT   EEEEE   RRRR    RRRR      A   
+O   O   U   U     T             O   O   F                 T     E       R   R   R   R    A A  
+O   O   U   U     T             O   O   F                 T     E       R   R   R   R   A   A 
+O   O   U   U     T             O   O   FFF               T     EEE     RRRR    RRRR    A   A 
+O   O   U   U     T             O   O   F                 T     E       R R     R R     AAAAA 
+O   O   U   U     T             O   O   F                 T     E       R  R    R  R    A   A 
+ OOO     UUU      T              OOO    F                 T     EEEEE   R   R   R   R   A   A 
+                                                                                              
+                                 ********
+                              *************
+                  *******     *************
+              **************  *************    ***********
+             ***************  *************   ************
+             ***************  *************   *************
+         *   ***************  ************** **************
+     ******* ***************  ************** **************
+   *********  **************  ************** **************
+************* **************  ************** **************
+************** *************  *************  **************
+************** *************  *************  **************
+************** ************** *************  **************
+ ****************************  ************  *************
+ ************** *************  ************  ***********
+  **************************** ************  ********
+    ************ *************  ***********        **********
+     ***********  ************  *****           **************
+      **********  ************     *****************************
+       *********  *************   ******************************
+        ********  *************   *******************************
+            ***   ***********    **********************************
+        ******      *********     *********************************
+      **********     ******       **********************************
+    *********************          ***********************************
+    *************************                 ************************
+    *****************************           ***************************
+    ********************************************************************
+    *********************************************************************
+    *********************************************************************
+     *******************************************************************
+      *****************************************************************
+       ***************************************************************
+        **************************************************************
+         ***********************************************************
+           ********************************************************
+           *******************************************************
+            ****************************************************
+              *************************************************
+               **********************************************
+                ******************************************
+                *****************************************
+                ****************************************
+                 **************************************
+                  ************************************
+                  ***********************************
+                  *********************************
+                  ********************************
+                  *******************************
+                 ********************************
+                *********************************
+                *********************************
+               **********************************
+               **********************************
+               **********************************
+               **********************************
+              ***********************************
+              ***********************************
+             ************************************
+             ************************************
+             ************************************
+            *************************************
+            *************************************
+            *************************************
+            *************************************
+           **************************************
+          ***************************************
+          ***************************************
+          ***************************************
+         ****************************************
+         ****************************************
+         ****************************************
+         ****************************************
+        *****************************************
+        *****************************************
+        *****************************************
+        *****************************************
+       ******************************************
+          ***************************************
+                          ***********************
+                                    *************
+
+
+        M   M    III    L       DDDD    L       Y   Y 
+        MM MM     I     L       D   D   L       Y   Y 
+        M M M     I     L       D   D   L        Y Y  
+        M   M     I     L       D   D   L         Y   
+        M   M     I     L       D   D   L         Y   
+        M   M     I     L       D   D   L         Y   
+        M   M    III    LLLLL   DDDD    LLLLL     Y   
+                                                      
+
+
+        PPPP    EEEEE   EEEEE   V   V   EEEEE   DDDD  
+        P   P   E       E       V   V   E       D   D 
+        P   P   E       E       V   V   E       D   D 
+        PPPP    EEE     EEE     V   V   EEE     D   D 
+        P       E       E       V   V   E       D   D 
+        P       E       E        V V    E       D   D 
+        P       EEEEE   EEEEE     V     EEEEE   DDDD  
+                                                      

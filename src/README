@@ -1,0 +1,36 @@
+
+                                F I S T
+
+               by John Walker (http://www.fourmilab.ch/)
+                             Version 4.0
+                            November 2001
+
+The FIST program prints posters consisting of a clenched
+fist with slogans in block letters below.  This program
+traces its lineage directly back to a UNIVAC mainframe
+program written in September 1969 by the author when such
+banners were rather more in demand than at present.
+
+For information on how to build and install the program, see
+the INSTALL file.  Source code for this program is written in
+the CWEB "Literate Programming" language in which C source code
+and TeX internal documentation are maintained in a the *.w
+files. CWEB programming tools may be downloaded from:
+
+    http://www-cs-faculty.stanford.edu/~knuth/cweb.html
+
+but you do *not* need to install the CWEB tools to build this
+program; a ready-to-compile C program is included.  An annotated
+source code listing is provided in the file fist.pdf, which may
+be read with Acrobat Reader, which is a free download from:
+
+    http://www.adobe.com/products/acrobat/readstep.html
+
+The latest version of this program may be downloaded
+from:
+
+    http://www.fourmilab.ch/etexts/etset/
+
+Please report any bugs or documentation errors to:
+
+    bugs@fourmilab.ch

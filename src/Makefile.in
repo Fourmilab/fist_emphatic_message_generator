@@ -1,0 +1,208 @@
+
+#   Development tree name for this version
+PRODUCT = @PRODUCT@
+VERSION = @VERSION@
+TREE = $(PRODUCT)-$(VERSION)
+
+#   Libraries
+INCLUDE_LIBS =
+
+#   Utilities used in building the program
+SHELL = /bin/sh
+CC = @CC@
+CXX = @CXX@
+CTANGLE = ctangle
+CWEAVE = cweave
+DVIPS = dvips
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@
+INSTALL_DATA = @INSTALL_DATA@
+PAGER = @PAGER@
+PDFTEX = pdftex
+TEX = tex
+COMPRESSOR = gzip
+
+#   Utility options
+CFLAGS = @CFLAGS@
+LDFLAGS = @LDFLAGS@ @LIBS@
+
+#   Targets
+PROGS = fist
+DOCUMENTS = fist.tex fist.pdf
+
+#   Installation destinations
+
+## The 'DESTDIR' variable allows you to install the program into a different
+## location, e.g., for packaging, without affecting the compiled-in pathnames.
+DESTDIR =
+
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+bindir = @bindir@
+mandir = @mandir@
+datarootdir = @datarootdir@
+man1dir = $(mandir)/man1
+man1ext = .1
+BINDIR = $(DESTDIR)$(bindir)
+MAN1DIR = $(DESTDIR)$(man1dir)
+
+prog:	$(PROGS)
+
+doc:	$(DOCUMENTS)
+
+all:	$(PROGS) $(DOCUMENTS)
+
+#   fist program
+
+fist:	fist.o
+	$(CC) fist.o -o fist $(CFLAGS) $(LDFLAGS)
+	@rm -f core
+
+fist.o: fist.c config.h
+fist.c: fist.w
+fist.tex: fist.w fist_sample.w
+
+#   Build auto-configuration scripts
+
+configurator:
+	rm -f config.cache
+	rm -rf autom4te.cache
+	autoconf
+	rm -rf autom4te.cache
+
+#   Installation
+
+install-bin: $(BINDIR) fist
+	$(INSTALL_PROGRAM) fist $(BINDIR)/fist
+
+install-man: fist.1
+	$(INSTALL_DATA) fist.1 $(MAN1DIR)/fist$(man1ext)
+
+install: install-bin install-man
+
+#   Uninstallation
+
+uninstall:
+	rm -f $(BINDIR)/fist $(MAN1DIR)/fist$(man1ext)
+
+#   Update dependencies among source files
+
+depend:
+	makedepend *.c
+
+#   There are a variety of levels of cleanliness
+#
+#	clean:	Remove object code, but leave C and TeX extracts from web
+#		and generated documentation.  The current build configuration
+#		is preserved.
+clean:
+	rm -f $(PROGS) *.o *.bak *.shar *.zip *.tar.gz *.tar.Z \
+		       *.dvi core *.out *.log *.aux
+	rm -rf ii_files
+#
+#	distclean:  Remove everything not present in the distribution.
+#		    This wipes out the build configuration; you must
+#		    re-run ./configure before rebuilding.
+distclean:  clean
+	rm -f config.cache config.h Makefile config.log config.status
+	rm -f fist.tex fist.idx fist.scn fist.toc
+#
+#	maintainer-clean:  Remove everything derivative from the
+#			   master web.	We don't delete fist.c
+#			   because that causes configure to fail.
+maintainer-clean: distclean
+	@echo 'This command is intended for maintainers to use; it'
+	@echo 'deletes files that may need special tools to rebuild.'
+	rm -f *.ps *.pdf
+	
+#   	reconfigure:	    This is a geeky target for those who
+#   	    	    	    wish to test on multiple platforms.
+#   	    	    	    Assuming you've already configured and
+#   	    	    	    have a more or less valid Makefile, it
+#   	    	    	    uses it to reconfigure for a different
+#   	    	    	    platform.
+reconfigure:
+	rm -f config.cache
+	./configure
+	make clean
+
+#   Create distribution archives
+
+ARCH_SOURCE = Makefile.in fist.c fist.w fist_sample.w config.h.in
+ARCH_DOC = fist.1 fist.pdf COPYING INSTALL README check_master.txt
+ARCH_BIN = Release/fist.exe
+ARCH_CONF = configure configure.in install-sh
+
+ARCH_FILES = $(ARCH_SOURCE) $(ARCH_DOC) $(ARCH_BIN) $(ARCH_CONF)
+
+dist:	fist.pdf fist.c
+	#   Make gzipped tar archive of complete distribution
+	rm -f $(TREE).tar.gz
+	rm -rf $(TREE)
+	mkdir $(TREE)
+	chmod 777 $(TREE)
+	@echo "Copying distribution files"
+	@for file in $(ARCH_FILES); do \
+	    cp -pr $$file $(TREE); \
+	done
+	tar cfv $(TREE).tar $(TREE)
+	$(COMPRESSOR) $(TREE).tar
+	rm -rf $(TREE)
+
+#   View manual page
+
+manpage:
+	nroff -man fist.1 | $(PAGER)
+
+#   Print manual page
+
+printman:
+	groff -man fist.1 | lp
+
+# Test it
+
+check:	fist
+	echo "Down with" >check_test.tx1
+	echo "everything" >>check_test.tx1
+	./fist <check_test.tx1 >check_test.txt
+	rm -f check_test.tx1
+	./fist -l -n -fd.radiodurans_rules_ -m" eukaryotes" -m"out of terra" >>check_test.txt
+	echo " pEEvEd" | ./fist -s75 -m" milDlY" >>check_test.txt
+	@diff check_master.txt check_test.txt ; if test $$? -ne 0  ; then \
+	    echo '** fist:  Comparison test failed. **' ; else \
+	    echo 'All tests passed.' ; fi
+	@rm -f check_test.txt
+
+# Update master reference output for check
+
+reference: fist
+	rm -f check_master.txt
+	echo "Down with" >check_test.tx1
+	echo "everything" >>check_test.tx1
+	./fist <check_test.tx1 >check_master.txt
+	rm -f check_test.tx1
+	./fist -l -n -fd.radiodurans_rules_ -m" eukaryotes" -m"out of terra" >>check_master.txt
+	echo " pEEvEd" | ./fist -s75 -m" milDlY" >>check_master.txt
+
+# Compile a program
+
+.c.o:
+	$(CC) $(CFLAGS) $(INCLUDE_LIBS) -c $<
+
+.c:
+	$(CC) $(CFLAGS) $(INCLUDE_LIBS) $(LDFLAGS) -o $@ $<
+
+.w.c:
+	$(CTANGLE) $<
+
+.w.tex:
+	$(CWEAVE) $<
+
+.tex.dvi:
+	$(TEX) $<
+
+.tex.pdf:
+	$(PDFTEX) $<
+
+.SUFFIXES:
+.SUFFIXES: .c .o .ch .dvi .pdf .tex .w .1
